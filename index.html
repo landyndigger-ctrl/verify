@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Verification</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+<div class="background"></div>
+
+
+<div class="card" id="emailStep">
+<h2>Enter Email</h2>
+<input type="email" id="email" placeholder="Email address" required />
+<button onclick="nextStep()">Next</button>
+</div>
+
+
+<div class="card hidden" id="codeStep">
+<h2>Enter Code</h2>
+<input type="text" id="code" placeholder="Verification code" />
+<button onclick="verify()">Verify</button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
